@@ -1,0 +1,27 @@
+{
+  "name": "zfl4wless/advent-of-code-2025",
+  "description": "Advent of Code 2025 Solutions in PHP",
+  "type": "project",
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "AOC2025\\": "src/"
+    }
+  },
+  "scripts": {
+    "solve": [
+      "@php run.php"
+    ],
+    "solve-all": [
+      "@php run.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
+

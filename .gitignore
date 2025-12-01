@@ -1,0 +1,30 @@
+# Vendor directory
+.cache/
+cache/
+# Cache
+
+*.log
+# Log files
+
+.env
+# Environment files
+
+*/input.txt
+# Input files (personal puzzle inputs)
+
+Thumbs.db
+.DS_Store
+# OS files
+
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
+# IDE files
+
+composer.lock
+# Composer files
+
+vendor/
+
+.phpunit.cache/
