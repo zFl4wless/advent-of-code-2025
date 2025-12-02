@@ -32,7 +32,6 @@ php run.php 1 -e
 php src/Day01/Solution.php
 ```
 
-
 ## Requirements
 
 - PHP 8.1 or higher
@@ -42,8 +41,8 @@ php src/Day01/Solution.php
 
 | Day                 | Part 1 | Part 2 | Stars |
 |---------------------|--------|--------|-------|
-| [Day 1](src/Day01)  | -      | -      | 0/2   |
-| [Day 2](src/Day02)  | -      | -      | 0/2   |
+| [Day 1](src/Day01)  | ⭐️     | ⭐️     | 2/2   |
+| [Day 2](src/Day02)  | ⭐️     | ⭐️     | 2/2   |
 | [Day 3](src/Day03)  | -      | -      | 0/2   |
 | [Day 4](src/Day04)  | -      | -      | 0/2   |
 | [Day 5](src/Day05)  | -      | -      | 0/2   |
