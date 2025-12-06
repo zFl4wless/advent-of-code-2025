@@ -8,7 +8,7 @@ use AOC2025\AbstractSolution;
 
 class Solution extends AbstractSolution
 {
-    public function solvePart1(string $input): mixed
+    public function solvePart1(string $input): int
     {
         $lines = explode("\n", $input);
 
@@ -38,7 +38,36 @@ class Solution extends AbstractSolution
     public function solvePart2(string $input): int
     {
         $lines = explode("\n", $input);
-        return 0;
+
+        $jolts = [];
+
+        foreach ($lines as $line) {
+            if (empty($line)) {
+                continue;
+            }
+
+            $digits = str_split($line);
+            $remove = count($digits) - 12;
+            $stack = [];
+
+            foreach ($digits as $digit) {
+                while ($remove > 0 && !empty($stack) && end($stack) < $digit) {
+                    array_pop($stack);
+                    $remove--;
+                }
+
+                $stack[] = $digit;
+            }
+
+            while ($remove > 0) {
+                array_pop($stack);
+                $remove--;
+            }
+
+            $jolts[] = implode('', array_slice($stack, 0, 12));
+        }
+
+        return array_sum($jolts);
     }
 }
 
