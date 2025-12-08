@@ -34,7 +34,7 @@ php src/Day01/Solution.php
 
 ## Requirements
 
-- PHP 8.1 or higher
+- PHP 8.4 or higher
 - Composer
 
 ## Progress
@@ -43,8 +43,8 @@ php src/Day01/Solution.php
 |---------------------|--------|--------|-------|
 | [Day 1](src/Day01)  | ⭐️     | ⭐️     | 2/2   |
 | [Day 2](src/Day02)  | ⭐️     | ⭐️     | 2/2   |
-| [Day 3](src/Day03)  | ⭐️     | -      | 1/2   |
-| [Day 4](src/Day04)  | -      | -      | 0/2   |
+| [Day 3](src/Day03)  | ⭐️     | ⭐️     | 2/2   |
+| [Day 4](src/Day04)  | ⭐️     | ⭐️     | 2/2   |
 | [Day 5](src/Day05)  | -      | -      | 0/2   |
 | [Day 6](src/Day06)  | -      | -      | 0/2   |
 | [Day 7](src/Day07)  | -      | -      | 0/2   |
