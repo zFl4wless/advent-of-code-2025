@@ -47,14 +47,14 @@ php src/Day01/Solution.php
 | [Day 4](src/Day04)  | ⭐️     | ⭐️     | 2/2   |
 | [Day 5](src/Day05)  | ⭐️     | ⭐️     | 2/2   |
 | [Day 6](src/Day06)  | ⭐️     | ⭐️     | 2/2   |
-| [Day 7](src/Day07)  | -      | -      | 0/2   |
+| [Day 7](src/Day07)  | ⭐️     | ⭐️     | 2/2   |
 | [Day 8](src/Day08)  | -      | -      | 0/2   |
 | [Day 9](src/Day09)  | -      | -      | 0/2   |
 | [Day 10](src/Day10) | -      | -      | 0/2   |
 | [Day 11](src/Day11) | -      | -      | 0/2   |
 | [Day 12](src/Day12) | -      | -      | 0/2   |
 
-**Total: 12/24 ⭐**
+**Total: 14/24 ⭐**
 
 ## Notes
 
