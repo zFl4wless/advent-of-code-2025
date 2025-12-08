@@ -8,7 +8,7 @@ use AOC2025\Utils;
 
 class Solution extends AbstractSolution
 {
-    public function solvePart1(string $input): mixed
+    public function solvePart1(string $input): int
     {
         $result = 0;
 
@@ -48,7 +48,7 @@ class Solution extends AbstractSolution
         return $result;
     }
 
-    public function solvePart2(string $input): mixed
+    public function solvePart2(string $input): int
     {
         $grid = Utils::parseGrid($input);
         $totalRemoved = 0;
